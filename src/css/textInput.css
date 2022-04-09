@@ -1,0 +1,15 @@
+.input-container {
+  max-width: 920px;
+  width: 100%;
+}
+
+.input-container label,
+textarea {
+  display: block;
+  width: 100%;
+}
+
+.input-container textarea {
+  background-color: transparent;
+  height: 100px;
+}
