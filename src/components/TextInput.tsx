@@ -10,7 +10,7 @@ const TextInput = () => {
 
   return (
     <div className='input-container'>
-      <label htmlFor='text-input'>Text</label>
+      <label htmlFor='text-input'>Write something!</label>
       <textarea
         id='text-input'
         value={textValue}
