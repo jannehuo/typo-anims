@@ -1,5 +1,9 @@
+import { useContext } from 'react'
+import { TextContext } from '../context/textContext'
+
 const TextFromBlocks = () => {
-  return <h1>Animation here</h1>
+  const context = useContext(TextContext)
+  return <h1>{context?.state.text}</h1>
 }
 
 export default TextFromBlocks
